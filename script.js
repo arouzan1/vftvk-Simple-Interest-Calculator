@@ -5,8 +5,8 @@ function compute()
     y = document.getElementById("years").value;
     z = p*x*y
     yr = getYear() + 1900
-    result = document.getElementById("result);
+    result = document.getElementById("result");
     result.innerHTML = "If you deposit " + p; 
-                                     //+ ", \n at an interest rate of " + x + "%.\n You will receive an amount of " + z + ", \n in the year " + (yr + y); 
+    //+ ", \n at an interest rate of " + x + "%.\n You will receive an amount of " + z + ", \n in the year " + (yr + y); 
 }
         
