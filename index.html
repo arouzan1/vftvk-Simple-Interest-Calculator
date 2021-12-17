@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <script src="script.js"></script>
+        <title>Web App for Simple Interest Calculation</title>
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
-
+        <h1 align="center">Simple Interest Calculator</h1>
+<div>
         Amount <input type="number"  id="principal">  <br/>
         
         Interest Rate <input type="range" min="0.0" max="21.0" value="10.5" class="slider"  id="rateRange">  <br/>
@@ -22,6 +23,7 @@
         <br><br/>
       
         <button onclick="compute()">Compute Interest</button>
-        
+        <p id="result"></p>
+        </div>
     </body>
 </html>
